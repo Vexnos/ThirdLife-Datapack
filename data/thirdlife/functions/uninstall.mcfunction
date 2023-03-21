@@ -1,4 +1,5 @@
-scoreboard players reset @a
+scoreboard players reset @a Deaths
+scoreboard players reset @a kills
 scoreboard objectives remove Deaths
 scoreboard objectives remove kills
 team remove green
