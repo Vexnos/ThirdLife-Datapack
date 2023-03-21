@@ -1,0 +1,1 @@
+execute as @a run execute if score @s Deaths matches 2 run team join red @s
