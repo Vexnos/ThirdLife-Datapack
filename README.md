@@ -6,6 +6,8 @@ For a player size of 4 or above, I recommend a worldborder cap of 1000 for the b
 
 To start the game, have everyone on the server and run `/function thirdlife:init`.
 
-This current version of Thirdlife has the Boogeyman partially implemented. The Boogeyman was introduced in Season 2 of Third Life known as Last Life.
+This current version of Third Life has the Boogeyman partially implemented. The Boogeyman was introduced in Season 2 of Third Life known as Last Life.
+
+This current version of Third Life has Life Transferring implemented, run `/trigger givelife` and make sure the person you want to give the life to is the closest player to you and the life should transfer. You cannot give lives to people who are out, red names can't give lives to people as they would be out.
 
 To start the Boogeyman, run `/function thirdlife:boogeyinit`.
