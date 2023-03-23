@@ -11,9 +11,8 @@ from random import randint
 
 #-------Functions-------
 def roll():
-    for player in players:
-        life_roll = randint(2, 6)
-        return life_roll
+    life_roll = randint(2, 6)
+    return life_roll
 
 #-------Main-Routine-------
 if __name__ == "__main__":
@@ -27,9 +26,7 @@ if __name__ == "__main__":
     # Iterates over lines to retrieve player names
     for line in lines:
         players.append(line.strip()) # Strips the players of the new line character
-        
-    # Roll the amount of lives for each player
-    life_roll = roll()
+    2
     # Construct a dictionary out of the list of players and rolls
     players = {player : roll() for player in players}
     
