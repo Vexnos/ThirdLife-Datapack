@@ -36,3 +36,6 @@ if __name__ == "__main__":
     # Iterate through the dictionary, printing the key and value per iteration
     for key, value in players.items():
         print(key + " : " + str(value) + " Lives")
+
+    # Closes the players text file
+    players_list.close()
