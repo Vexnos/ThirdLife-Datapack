@@ -20,3 +20,14 @@ player_3
 etc...
 ```
 Then run the Python script and it will roll the amount of lives for each player, enjoy!
+Note: You will have to set the players lives manually if you randomly generate them
+To do that, run `scoreboard players set <player> Deaths <amount>`.
+```
+-3 Deaths : 6 Lives
+-2 Deaths : 5 Lives
+-1 Deaths : 4 Lives
+0 Deaths : 3 Lives
+1 Deaths : 2 Lives
+2 Deaths : 1 Life
+3 Deaths : 0 Lives
+```
