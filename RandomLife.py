@@ -27,12 +27,22 @@ if __name__ == "__main__":
     for line in lines:
         players.append(line.strip()) # Strips the players of the new line character
     
-    # Construct a dictionary out of the list of players and rolls
-    players = {player : roll() for player in players}
-    
-    # Iterate through the dictionary, printing the key and value per iteration
-    for key, value in players.items():
-        print(key + " : " + str(value) + " Lives")
+    # Loops the program until the user quits
+    rolling = True
+    while rolling:
+        bar = "-" * 30
+        print(f"{bar}\nRolls\n{bar}")
+
+        # Construct a dictionary out of the list of players and rolls
+        players = {player : roll() for player in players}
+        
+        # Iterate through the dictionary, printing the key and value per iteration
+        for key, value in players.items():
+            print(key + " : " + str(value) + " Lives")
+
+        # Allows the user to roll again
+        roll_again = input(f"{bar}\nWant to roll again? (y/n): ")
+        rolling = roll_again.lower().startswith("y")
 
     # Closes the players text file
     players_list.close()
