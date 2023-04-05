@@ -1,5 +1,5 @@
 # Third Life
-This is a Third Life datapack created my me, inspired by Grian's Third Life series. 
+This is a Third Life datapack created by myself, inspired by Grian's Third Life series. 
 Go check it out if you haven't: https://www.youtube.com/watch?v=nszciRXXJZk&list=PLU2851hDb3SHLdAlj8dxqHPeT_qIBbRBv
 
 For a player size of 4 or above, I recommend a worldborder cap of 1000 for the best experience.
